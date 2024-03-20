@@ -1,0 +1,30 @@
+{  
+  "MT5": {
+    "server": "ICMarketsEU-Demo",
+    "login": 51693850,
+    "password": "QzG+Ta8f"
+  },
+  
+  "OpenFX": {
+    "account_id": "75c7b51e-9ffc-48c6-b665-5a3cf73244d7",
+    "api_key": "3FBm9dnmcQGeN67m",
+    "secret_key": "xhcPXwbpa9TJxgBzPxBD4kjdFJ5sQ572YmMNPyytjezymj9BfwfNwTQj99hmARGf"
+  },
+  
+  "OANDA": {
+    "api_key": "your_api_key",
+    "account_id": "your_account_id"
+  },
+  
+  "data": {
+    "symbols": ["GBPJPY"],
+    "timeframes": ["H1", "H4", "D1"],
+    "start_date": "2004-01-01T00:00:00Z", 
+    "end_date": "2004-01-03T00:00:00Z" 
+  },
+  
+  "output": {
+    "format": "pickle",
+    "destination": "./data"
+  }
+}
